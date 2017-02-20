@@ -14,6 +14,9 @@
 		CFA9B05F1E5B98F900F53CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA9B05D1E5B98F900F53CA2 /* LaunchScreen.storyboard */; };
 		CFA9B06A1E5B98F900F53CA2 /* ShareRocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA9B0691E5B98F900F53CA2 /* ShareRocksTests.swift */; };
 		CFA9B0751E5B98F900F53CA2 /* ShareRocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA9B0741E5B98F900F53CA2 /* ShareRocksUITests.swift */; };
+		CFA9B0831E5B9C9B00F53CA2 /* GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = CFA9B0821E5B9C9B00F53CA2 /* GUIDE.md */; };
+		CFA9B0871E5BAC6600F53CA2 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFA9B0861E5BAC6600F53CA2 /* apple.jpg */; };
+		CFA9B0891E5BB62200F53CA2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CFA9B0881E5BB62200F53CA2 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CFA9B0701E5B98F900F53CA2 /* ShareRocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareRocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA9B0741E5B98F900F53CA2 /* ShareRocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareRocksUITests.swift; sourceTree = "<group>"; };
 		CFA9B0761E5B98F900F53CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA9B0821E5B9C9B00F53CA2 /* GUIDE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GUIDE.md; sourceTree = "<group>"; };
+		CFA9B0861E5BAC6600F53CA2 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		CFA9B0881E5BB62200F53CA2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		CFA9B0481E5B98F900F53CA2 = {
 			isa = PBXGroup;
 			children = (
+				CFA9B0881E5BB62200F53CA2 /* .gitignore */,
+				CFA9B0821E5B9C9B00F53CA2 /* GUIDE.md */,
 				CFA9B0531E5B98F900F53CA2 /* ShareRocks */,
 				CFA9B0681E5B98F900F53CA2 /* ShareRocksTests */,
 				CFA9B0731E5B98F900F53CA2 /* ShareRocksUITests */,
@@ -97,6 +105,7 @@
 		CFA9B0531E5B98F900F53CA2 /* ShareRocks */ = {
 			isa = PBXGroup;
 			children = (
+				CFA9B0861E5BAC6600F53CA2 /* apple.jpg */,
 				CFA9B0541E5B98F900F53CA2 /* AppDelegate.swift */,
 				CFA9B0561E5B98F900F53CA2 /* ViewController.swift */,
 				CFA9B0581E5B98F900F53CA2 /* Main.storyboard */,
@@ -238,6 +247,9 @@
 				CFA9B05F1E5B98F900F53CA2 /* LaunchScreen.storyboard in Resources */,
 				CFA9B05C1E5B98F900F53CA2 /* Assets.xcassets in Resources */,
 				CFA9B05A1E5B98F900F53CA2 /* Main.storyboard in Resources */,
+				CFA9B0871E5BAC6600F53CA2 /* apple.jpg in Resources */,
+				CFA9B0891E5BB62200F53CA2 /* .gitignore in Resources */,
+				CFA9B0831E5B9C9B00F53CA2 /* GUIDE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
