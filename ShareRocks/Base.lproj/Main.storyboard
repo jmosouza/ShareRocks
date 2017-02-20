@@ -36,9 +36,6 @@
                             <constraint firstItem="NEn-qB-6i3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s0S-pA-T9q"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="shareButton" destination="NEn-qB-6i3" id="eA0-b4-5L4"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
