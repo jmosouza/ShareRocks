@@ -17,6 +17,7 @@
 		CFA9B0831E5B9C9B00F53CA2 /* GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = CFA9B0821E5B9C9B00F53CA2 /* GUIDE.md */; };
 		CFA9B0871E5BAC6600F53CA2 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFA9B0861E5BAC6600F53CA2 /* apple.jpg */; };
 		CFA9B0891E5BB62200F53CA2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CFA9B0881E5BB62200F53CA2 /* .gitignore */; };
+		CFA9B08C1E5BBDC000F53CA2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CFA9B08B1E5BBDC000F53CA2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CFA9B0821E5B9C9B00F53CA2 /* GUIDE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GUIDE.md; sourceTree = "<group>"; };
 		CFA9B0861E5BAC6600F53CA2 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
 		CFA9B0881E5BB62200F53CA2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CFA9B08B1E5BBDC000F53CA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				CFA9B0881E5BB62200F53CA2 /* .gitignore */,
 				CFA9B0821E5B9C9B00F53CA2 /* GUIDE.md */,
+				CFA9B08B1E5BBDC000F53CA2 /* README.md */,
 				CFA9B0531E5B98F900F53CA2 /* ShareRocks */,
 				CFA9B0681E5B98F900F53CA2 /* ShareRocksTests */,
 				CFA9B0731E5B98F900F53CA2 /* ShareRocksUITests */,
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA9B08C1E5BBDC000F53CA2 /* README.md in Sources */,
 				CFA9B0571E5B98F900F53CA2 /* ViewController.swift in Sources */,
 				CFA9B0551E5B98F900F53CA2 /* AppDelegate.swift in Sources */,
 			);
@@ -526,6 +530,7 @@
 				CFA9B07B1E5B98F900F53CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFA9B07C1E5B98F900F53CA2 /* Build configuration list for PBXNativeTarget "ShareRocksTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				CFA9B07E1E5B98F900F53CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFA9B07F1E5B98F900F53CA2 /* Build configuration list for PBXNativeTarget "ShareRocksUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				CFA9B0811E5B98F900F53CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
