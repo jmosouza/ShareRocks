@@ -21,9 +21,10 @@ class ViewController: UIViewController {
     }
     
     func presentShareDialog() {
-        let sample = "hello world"
+        let image = #imageLiteral(resourceName: "apple.jpg")
+        let text = "hello world #apple"
         let dialog = UIActivityViewController(
-            activityItems: [sample],
+            activityItems: [image, text],
             applicationActivities: nil)
         dialog.completionWithItemsHandler = dialogHandler
         present(dialog, animated: true, completion: nil)
@@ -41,8 +42,8 @@ class ViewController: UIViewController {
             return
         }
         
-        // Get the bundle of the app that handled the activity.
-        // e.g. "ph.telegra.Telegraph.Share" for Telegram.
+        // Get the app bundle.
+        // e.g. Telegram is "ph.telegra.Telegraph.Share".
         guard let bundle = activityType?.rawValue else {
             print("Unable to identify type")
             return
